@@ -1,6 +1,28 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: black;
 }
 .logo {
     font-family: "Raleway", sans-serif;
+}
+address a {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.site-nav a:hover {
+    color: #2196f3;
+}
+.filters .filter:hover {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+.filters .filter:focus {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+.link:hover {
+    color: #2196f3;
+}
+a {
+    text-decoration: none;
 }
