@@ -4,7 +4,7 @@
     --background-color: #ffffff;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Arial" sans-serif;
     color: var(--text-color);
 }
 .logo {
