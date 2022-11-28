@@ -45,10 +45,10 @@ address a {
 }
 .filters {
     list-style: none;
+    text-align: center;
 }
 .filters h1 {
     font-weight: 900;
-    text-align: center;
     font-size: 44px;
     line-height: 1.4;
     color: #ffffff;
@@ -74,7 +74,6 @@ address a {
 .filter-button {
     font-weight: 700;
     line-height: 1.9;
-    text-align: center;
 }
 .filter-button:hover {
     background-color: #2196f3;
