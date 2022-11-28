@@ -85,7 +85,7 @@ address a {
     line-height: 1.9;
     color: #757575;
 }
-h1 {
+.filters h1 {
     font-weight: 900;
     text-align: center;
     font-size: 44px;
@@ -95,6 +95,7 @@ h1 {
 }
 .articles {
     list-style: none;
+    text-align: center;
 }
 .articles h3 {
     font-weight: 700;
