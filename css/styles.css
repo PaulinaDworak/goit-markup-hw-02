@@ -58,17 +58,15 @@ address a {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
+    text-decoration: none;
+    color: #757575;
+    cursor: pointer;
 }
 .link:hover {
     color: #2196f3;
 }
 .link:focus {
     color: #2196f3;
-}
-a {
-    text-decoration: none;
-    color: #757575;
-    cursor: pointer;
 }
 .name {
     font-size: 18px;
