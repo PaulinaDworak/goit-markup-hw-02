@@ -15,6 +15,9 @@ body {
 .logo-black {
     color: #000000;
 }
+.logo-white {
+    color: #ffffff;
+}
 address a {
     font-family: "Roboto", sans-serif;
     font-style: normal;
