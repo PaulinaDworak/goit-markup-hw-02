@@ -25,6 +25,7 @@ address a {
     font-weight: 400;
     color: #ffffff99;
     line-height: 1.7;
+    text-decoration: none;
 }
 .site-nav a {
     font-size: 14px;
