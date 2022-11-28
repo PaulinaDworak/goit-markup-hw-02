@@ -40,6 +40,14 @@ address a {
 .site-nav a:focus {
     color: #2196f3;
 }
+.filters h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.4;
+    color: #ffffff;
+    background-color: #2f303a;
+}
 .filters .filter {
     font-size: 16px;
     font-weight: 500;
@@ -61,6 +69,7 @@ address a {
 .filter button {
     font-weight: 700;
     line-height: 1.9;
+    text-align: center;
 }
 .link {
     font-size: 14px;
@@ -87,14 +96,7 @@ address a {
     line-height: 1.9;
     color: #757575;
 }
-.filters h1 {
-    font-weight: 900;
-    text-align: center;
-    font-size: 44px;
-    line-height: 1.4;
-    color: #ffffff;
-    background-color: #2f303a;
-}
+
 .articles {
     list-style: none;
     text-align: center;
@@ -115,7 +117,11 @@ h2 {
     text-align: center;
     line-height: 1.2;
 }
-.employee-name {
+.list li {
+    list-style: none;
+}
+.team li {
+    list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
