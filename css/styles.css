@@ -27,12 +27,14 @@ address a {
     line-height: 1.7;
     text-decoration: none;
 }
+.site-nav {
+    list-style: none;
+}
 .site-nav a {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
     text-decoration: none;
-    list-style: none;
     color: #212121;
 }
 .site-nav a:hover {
@@ -40,6 +42,9 @@ address a {
 }
 .site-nav a:focus {
     color: #2196f3;
+}
+.filters {
+    list-style: none;
 }
 .filters h1 {
     font-weight: 900;
@@ -57,7 +62,6 @@ address a {
     border-color: #f5f4fa;
     cursor: pointer;
     line-height: 0.6;
-    list-style: none;
 }
 .filters .filter:hover {
     background-color: #2196f3;
@@ -86,11 +90,13 @@ address a {
 .link:focus {
     color: #2196f3;
 }
+.websites {
+    list-style: none;
+}
 .websites li {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
-    list-style: none;
 }
 .category {
     font-size: 16px;
@@ -119,11 +125,13 @@ h2 {
     text-align: center;
     line-height: 1.2;
 }
-.list li {
+.list {
+    list-style: none;
+}
+.team {
     list-style: none;
 }
 .team li {
-    list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
