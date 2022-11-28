@@ -48,6 +48,7 @@ address a {
     border-color: #f5f4fa;
     cursor: pointer;
     line-height: 0.6;
+    list-style: none;
 }
 .filters .filter:hover {
     background-color: #2196f3;
@@ -75,7 +76,7 @@ address a {
 .link:focus {
     color: #2196f3;
 }
-.name {
+.websites li {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
