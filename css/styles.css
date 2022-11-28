@@ -54,7 +54,7 @@ address a {
     color: #ffffff;
     background-color: #2f303a;
 }
-.filters .filter {
+.filter {
     font-size: 16px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
@@ -71,10 +71,18 @@ address a {
     background-color: #2196f3;
     color: #ffffff;
 }
-.filter button {
+.filter-button {
     font-weight: 700;
     line-height: 1.9;
     text-align: center;
+}
+.filter-button:hover {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+.filter-button:focus {
+    background-color: #2196f3;
+    color: #ffffff;
 }
 .link {
     font-size: 14px;
