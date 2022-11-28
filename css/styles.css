@@ -33,6 +33,7 @@ address a {
     line-height: 1.1;
     text-decoration: none;
     list-style: none;
+    color: #212121;
 }
 .site-nav a:hover {
     color: #2196f3;
