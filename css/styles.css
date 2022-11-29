@@ -42,7 +42,7 @@ body {
 .site-nav a:focus {
     color: var(--blue-accent);
 }
-.contact a {
+.contact {
     font-style: normal;
     color: var(--logo-color-white);
     text-decoration: none;
@@ -55,6 +55,7 @@ body {
 .link {
     font-size: 14px;
     font-weight: 500;
+    font-style: normal;
     line-height: 1.1;
     text-decoration: none;
     color: #757575;
