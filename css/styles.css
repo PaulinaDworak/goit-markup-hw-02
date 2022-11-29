@@ -3,6 +3,7 @@
     --text-color: #212121;
     --logo-color-black: #000000;
     --logo-color-white: #ffffff;
+    --blue-accent: #2196f3;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -13,7 +14,7 @@ body {
     font-size: 26px;
     font-weight: 700;
     line-height: 1.2;
-    color: #2196f3;
+    color: var(--blue-accent);
     text-decoration: none;
 }
 .logo-black {
@@ -24,7 +25,7 @@ body {
 }
 .contact {
     font-style: normal;
-    color: #ffffff;
+    color: var(--logo-color-white);
     line-height: 1.7;
     text-decoration: none;
 }
@@ -36,13 +37,13 @@ body {
     font-weight: 500;
     line-height: 1.1;
     text-decoration: none;
-    color: #212121;
+    color: var(--text-color);
 }
 .site-nav a:hover {
-    color: #2196f3;
+    color: var(--blue-accent);
 }
 .site-nav a:focus {
-    color: #2196f3;
+    color: var(--blue-accent);
 }
 .link {
     font-size: 14px;
@@ -53,10 +54,10 @@ body {
     cursor: pointer;
 }
 .link:hover {
-    color: #2196f3;
+    color: var(--blue-accent);
 }
 .link:focus {
-    color: #2196f3;
+    color: var(--blue-accent);
 }
 footer {
     background-color: #2f303a;
@@ -70,14 +71,14 @@ footer {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    color: #ffffff;
+    color: var(--logo-color-white);
 }
 .services button {
     font-weight: 700;
     line-height: 1.9;
-    background-color: #2196f3;
-    color: #ffffff;
-    border-color: #2196f3;
+    background-color: var(--blue-accent);
+    color: var(--logo-color-white);
+    border-color: var(--blue-accent);
 }
 .articles {
     list-style: none;
