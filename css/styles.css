@@ -4,6 +4,7 @@
     --logo-color-black: #000000;
     --logo-color-white: #ffffff;
     --blue-accent: #2196f3;
+    --dark-background: #2f303a;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -16,6 +17,7 @@ body {
     line-height: 1.2;
     color: var(--blue-accent);
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .logo-black {
     color: var(--logo-color-black);
@@ -23,14 +25,9 @@ body {
 .logo-white {
     color: var(--logo-color-white);
 }
-.contact {
-    font-style: normal;
-    color: var(--logo-color-white);
-    line-height: 1.7;
-    text-decoration: none;
-}
 .site-nav {
     list-style: none;
+    letter-spacing: 0.02em;
 }
 .site-nav a {
     font-size: 14px;
@@ -45,6 +42,16 @@ body {
 .site-nav a:focus {
     color: var(--blue-accent);
 }
+.contact a {
+    font-style: normal;
+    color: var(--logo-color-white);
+    text-decoration: none;
+    line-height: 1.7;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+}
 .link {
     font-size: 14px;
     font-weight: 500;
@@ -53,18 +60,20 @@ body {
     color: #757575;
     cursor: pointer;
 }
-.link:hover {
+.link:hover,
+.contact:hover {
     color: var(--blue-accent);
 }
-.link:focus {
+.link:focus,
+.contact:focus {
     color: var(--blue-accent);
 }
-footer {
-    background-color: #2f303a;
+.dark-bg {
+    background-color: var(--dark-background);
 }
 /*style mające zastosowanie tylko dla index */
 .services {
-    background-color: #2f303a;
+    background-color: var(--dark-background);
     text-align: center;
 }
 .services h1 {
@@ -72,6 +81,7 @@ footer {
     font-size: 44px;
     line-height: 1.4;
     color: var(--logo-color-white);
+    letter-spacing: 0.06em;
 }
 .services button {
     font-weight: 700;
@@ -79,10 +89,12 @@ footer {
     background-color: var(--blue-accent);
     color: var(--logo-color-white);
     border-color: var(--blue-accent);
+    letter-spacing: 0.06em;
 }
 .articles {
     list-style: none;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .articles h3 {
     font-weight: 700;
@@ -102,9 +114,11 @@ footer {
     font-size: 36px;
     text-align: center;
     line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 .team {
     list-style: none;
+    letter-spacing: 0.03em;
 }
 .team h2 {
     font-weight: 700;
@@ -127,6 +141,7 @@ footer {
 .filters {
     list-style: none;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .filters button {
     font-size: 16px;
@@ -152,10 +167,12 @@ footer {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .category {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.9;
     color: #757575;
+    letter-spacing: 0.03em;
 }
