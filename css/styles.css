@@ -1,6 +1,8 @@
 /* style mające zastosowanie dla index oraz portfolio */
 :root {
     --text-color: #212121;
+    --logo-color-black: #000000;
+    --logo-color-white: #ffffff;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -15,16 +17,14 @@ body {
     text-decoration: none;
 }
 .logo-black {
-    color: #000000;
+    color: var(--logo-color-black);
 }
 .logo-white {
-    color: #ffffff;
+    color: var(--logo-color-white);
 }
-address a {
-    font-family: "Roboto", sans-serif;
+.contact {
     font-style: normal;
-    font-weight: 400;
-    color: #ffffff99;
+    color: #ffffff;
     line-height: 1.7;
     text-decoration: none;
 }
@@ -93,10 +93,10 @@ footer {
     font-size: 14px;
     line-height: 1.7;
 }
-.list {
+.types-of-services {
     list-style: none;
 }
-.list h2 {
+.types-of-services h2 {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
