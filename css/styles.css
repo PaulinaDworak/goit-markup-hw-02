@@ -36,9 +36,7 @@ body {
     text-decoration: none;
     color: var(--text-color);
 }
-.site-nav a:hover {
-    color: var(--blue-accent);
-}
+.site-nav a:hover,
 .site-nav a:focus {
     color: var(--blue-accent);
 }
