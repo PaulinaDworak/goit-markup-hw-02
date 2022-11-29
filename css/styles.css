@@ -62,11 +62,7 @@ body {
     cursor: pointer;
 }
 .link:hover,
-.contact:hover {
-    color: var(--blue-accent);
-}
-.link:focus,
-.contact:focus {
+.link:focus {
     color: var(--blue-accent);
 }
 .dark-bg {
@@ -91,6 +87,9 @@ body {
     color: var(--logo-color-white);
     border-color: var(--blue-accent);
     letter-spacing: 0.06em;
+    outline: none;
+    border-radius: 4px;
+    border: none;
 }
 .articles {
     list-style: none;
@@ -152,11 +151,11 @@ body {
     border-color: #f5f4fa;
     cursor: pointer;
     line-height: 0.6;
+    outline: none;
+    border-radius: 4px;
+    border: none;
 }
-.filters button:hover {
-    background-color: var(--blue-accent);
-    color: var(--logo-color-white);
-}
+.filters button:hover,
 .filters button:focus {
     background-color: var(--blue-accent);
     color: var(--logo-color-white);
@@ -176,4 +175,17 @@ body {
     line-height: 1.9;
     color: #757575;
     letter-spacing: 0.03em;
+}
+.link-underlined {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.1;
+    text-decoration: underline;
+    color: #757575;
+    cursor: pointer;
+}
+.link-underlined:hover,
+.link-underlined:focus {
+    color: var(--blue-accent);
 }
