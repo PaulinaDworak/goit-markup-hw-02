@@ -138,12 +138,12 @@ footer {
     line-height: 0.6;
 }
 .filters button:hover {
-    background-color: #2196f3;
-    color: #ffffff;
+    background-color: var(--blue-accent);
+    color: var(--logo-color-white);
 }
 .filters button:focus {
-    background-color: #2196f3;
-    color: #ffffff;
+    background-color: var(--blue-accent);
+    color: var(--logo-color-white);
 }
 .websites {
     list-style: none;
